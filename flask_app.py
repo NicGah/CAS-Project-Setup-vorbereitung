@@ -24,8 +24,8 @@ Welcome the user.
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
-    type_id="demo_2",
-    user_id="demo_2",
+    type_id="demo_3",
+    user_id="demo_3",
     type_name="Health Coach",
     type_role=my_type_role,
     instance_context=my_instance_context,
