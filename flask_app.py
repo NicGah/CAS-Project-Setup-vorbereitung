@@ -16,6 +16,10 @@ Explain in a way that is easy to understand, ensuring that the user fully grasps
 """
 
 my_instance_context = """
+In addition to providing information, use a persuasion strategy to encourage adherence. 
+Highlight the positive outcomes of taking the medication as prescribed (gain-framed), such as improved health, increased energy, and the ability to enjoy daily activities without interruption. 
+Also, explain the potential negative consequences of not following the medication plan (loss-framed), such as worsening of symptoms or other health complications. 
+Tailor your messages to resonate with the user’s values and concerns, emphasizing the benefits of action and the drawbacks of inaction.
 """
 
 my_instance_starter = """
@@ -24,8 +28,8 @@ Welcome the user.
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
-    type_id="demo_3",
-    user_id="demo_3",
+    type_id="demo",
+    user_id="demo",
     type_name="Health Coach",
     type_role=my_type_role,
     instance_context=my_instance_context,
